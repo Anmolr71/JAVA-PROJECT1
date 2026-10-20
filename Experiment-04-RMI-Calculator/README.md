@@ -1,27 +1,43 @@
-# Experiment 04 – RMI Calculator
+# Java RMI
 
-## Objective
-To implement a calculator application using Java Remote Method Invocation (RMI).
+A Java Remote Method Invocation (RMI) practice project.
 
-## Concepts Covered
-- Java RMI
-- Remote interfaces
-- Client-server architecture
-- Remote method calls
+## 🎯 Objective
 
-## Features
-- Remote arithmetic operations
-- Communication between client and server
+Learn how a Java program can invoke methods on an object running in another Java process.
 
-## Technologies Used
-- Java
-- Java RMI
+## 🧠 Concepts
 
-## How to Run
+- Remote interfaces and remote methods
+- `Remote` and `RemoteException`
+- `UnicastRemoteObject`, if used
+- RMI server and client
+- Registry lookup and service binding
+
+## ▶️ Running the Project
+
+The exact commands depend on the classes and package names in this folder.
+
 1. Compile the Java source files.
-2. Start the RMI registry as required.
-3. Run the RMI server.
-4. Run the client application.
+2. Start the RMI registry if the implementation requires a separately started registry.
+3. Start the server.
+4. Start the client in a separate terminal.
 
-## Author
-Anmol Rathore
+Example command pattern for a simple, package-free project:
+
+```bash
+javac *.java
+```
+
+Then run the actual registry, server, and client classes specified by the source code. Do not assume class names without checking the files.
+
+## ⚠️ Troubleshooting
+
+- Ensure the client and server use matching remote interface definitions.
+- Confirm the registry port and host configuration.
+- Check firewall and network settings if using different machines.
+- Keep all required classes on the classpath.
+
+## 📌 Notes
+
+Replace this generic run sequence with exact commands after confirming the source filenames and package structure.
