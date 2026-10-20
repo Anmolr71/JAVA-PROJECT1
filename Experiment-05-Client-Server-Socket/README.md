@@ -1,54 +1,26 @@
-**# Experiment 05 – Client-Server Socket
+# Java Source Files
 
-## Objective
-To implement communication between a client and a server using Java sockets.
+This folder contains Java source code used for practice or coursework.
 
-## Concepts Covered
-- Socket programming
-- TCP communication
-- Client-server architecture
-- Input and output streams
+## 🎯 Purpose
 
-## Features
-- Client-server connection
-- Message exchange over a network
+Keep source files organized and provide a short reference for running the code.
 
-## Technologies Used
-- Java
-- Java Socket API
+## ▶️ How to Run
 
-## How to Run
-1. Compile the Java source files.
-2. Start the server program.
-3. Run the client program.
-4. Exchange messages between client and server.
+1. Inspect the `.java` files and identify the class containing `public static void main(String[] args)`.
+2. Check whether the code uses packages or depends on other classes.
+3. Compile from the correct source root.
 
-## Author
-Anmol Rathore# Experiment 05 – Client-Server Socket
+For a single package-free file:
 
-## Objective
-To implement communication between a client and a server using Java sockets.
+```bash
+javac FileName.java
+java FileName
+```
 
-## Concepts Covered
-- Socket programming
-- TCP communication
-- Client-server architecture
-- Input and output streams
+Replace `FileName` with the actual class/file name. For code using packages or external libraries, compile and run it from the configured project or IDE.
 
-## Features
-- Client-server connection
-- Message exchange over a network
+## 📌 Notes
 
-## Technologies Used
-- Java
-- Java Socket API
-
-## How to Run
-1. Compile the Java source files.
-2. Start the server program.
-3. Run the client program.
-4. Exchange messages between client and server.
-
-## Author
-Anmol Rathore
-**
+If this folder contains multiple unrelated exercises, consider placing each experiment in a clearly named subfolder with its own README.
